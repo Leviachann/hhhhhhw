@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway&display=swap');
+
+:root {
+    --main-color: #1a1a1a;
+    --app-yellow: #ffe500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header {
+    padding: 20px;
+    background-color: var(--main-color);
+}
+
+.icons {
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.icons img {
+    position: absolute;
+    top: 0;
+}
+
+.icons .icon-2 {
+    right: 0;
+}
+
+.box {
+    margin-top: 290px;
+    text-align: center;
+    margin-bottom: 254px;
+
+}
+
+.box h1 {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    text-align: center;
+    color: white;
+    letter-spacing: 20px;
+    font-weight: 300;
+}
+
+.box p {
+    font-size: 0.81em;
+    letter-spacing: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.box a {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--app-yellow);
+    color: #1b1b1b;
+    padding: 16px 34px;
+    margin-top: 53px;
+}
+
+.sub-box {
+    text-align: center;
+}
+
+
+
+/* Main Start */
+main {
+    background-color: white;
+    padding-top: 165px;
+    padding-bottom: 220px;
+    text-align: center;
+}
+main p{
+    color: #707070;
+    line-height: 30px;
+    width: 35%;
+    margin: auto;
+    margin-top:90px;
+}
+
+/* Start Services */
+#services{
+    padding-top: 85px;
+    padding-bottom: 37px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#title{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    font-size: 1.25em;
+    margin-top: 35px;
+}
+#caption{
+    font-size: 1em;
+    width: 40%;
+    color: #707070;
+    margin: auto;
+    margin-top:45px;
+    line-height: 35px;
+}
+.sub{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.cards{
+    margin-top: 85px;
+    display: flex;
+}
+.card{
+    padding: 35px;
+    box-sizing: content-box;
+    box-shadow: 0 0 2px 2px lightgray;
+    display: inline-block;
+    margin:0 15px;
+    width: 25%;
+    background-color: white;
+}
+
+.card-title{
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: -10px;
+    letter-spacing: 8px;
+}
+.card-text{
+    margin-top: 45px;
+    color: #707070;
+    line-height: 25px;
+}
+
+.prg{
+    text-align: left;
+    margin-top: 20px;
+}
+.p-1{
+    background-color: lightgray;
+    width: 100%;
+    padding: 0;
+    height: 5px;
+    position:relative;
+}
+.p-2{
+    display: inline-block;
+    position:absolute;
+    margin: 0;
+    background-color: var(--app-yellow);
+    width: 89%;
+    height: 5px;
+}
+.adj{
+    margin-top: -42px;
+}
+.count{
+    background-color: #1a1a1a;
+    padding-top:87px;
+    padding-bottom:87px;
+    text-align: center;
+}
+.why{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 14em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bold{
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    margin-bottom: 6PX;
+}
+.ooo{
+    display: inline-block;
+    list-style: none;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    margin-top: 4em;
+  }
+
+  .topnav a.active {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 90px;
+  }
+.de{
+    margin-left: 28em;
+}
+.da{
+    margin-left: 14em;
+}
+.ma{
+    margin-left: -89em;
+    margin-top: 2em;
+}
+.yayy{
+    height: 350px;
+    background-color: black;
+    width: 100%;
+}
